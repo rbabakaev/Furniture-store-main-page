@@ -1,5 +1,5 @@
 
-.svg { height: 2%;
+.city-dot { height: 2%;
 margin-left:30px;}
 
 .city {
@@ -17,7 +17,85 @@ text-decoration-thickness: 1px;
   color:Grey;
     text-decoration: none;
 margin-left:10px;
+    transition: 0.2s; 
 }
 .nav:hover {
   color:Black;
+}
+
+.black-to-red {
+  color:Black;
+    text-decoration: none;
+    transition: 0.2s; 
+}
+.black-to-red:hover {
+  color:Red;
+}
+.black-to-grey {
+  color:Black;
+    text-decoration: none;
+    transition: 0.2s; 
+}
+.black-to-grey:hover {
+  color:Grey;
+}
+.yb {
+  background-color:Gold;
+  border: 0;
+  border-radius: 10px;
+    transition: 0.2s; 
+}
+.yb:hover {
+  background-color:#FFEA00;
+}
+.gb {
+  background-color:LightGrey;
+  border: 0;
+  border-radius: 10px;
+    transition: 0.2s; 
+}
+.gb:hover {
+  background-color:DarkGray;
+}
+.wr {
+  color:White;
+  background-color:FireBrick;
+  border: 0;
+  border-radius: 10px;
+    transition: 0.2s; z-index: 2;
+  position: absolute;
+}
+.wr:hover {
+  position: absolute;
+  background-color:DarkRed;
+}
+.gr {
+margin-left:70px;
+  position: absolute;z-index: 2;
+  background-color:LightGrey;
+  border: 0;
+    transition: 0.2s; 
+  border-radius: 10px;
+}
+.gr:hover {
+  color:Red;
+}
+.pk {height: 20%;
+}
+.fb {
+  position: absolute;
+  background-color:LightGrey;
+  border: 0;
+  border-radius: 10px;
+    transition: 0.2s; 
+padding-left: 100px; z-index: 1;
+}
+.black-to-red-and-margin-left {
+margin-left: 150px;
+  color:Black;
+    text-decoration: none;
+    transition: 0.2s; 
+}
+.black-to-red-and-margin-left:hover {
+  color:Red;
 }
