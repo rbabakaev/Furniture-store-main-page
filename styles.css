@@ -1,13 +1,55 @@
+container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+height: 30%;
+text-align: center
+}
+
+.grid-width { 
+  width:90%;
+}
+
+img {
+border:0;
+}
+
+body {
+margin-left:30px;
+margin-right:30px;
+}
+.whitesmoke-background { 
+  background-color:WhiteSmoke;
+}
 
 .city-dot { height: 2%;
-margin-left:30px;}
+margin-left:30px;
+}
 
-.city {
+.city-up {
   color:Grey;
     text-decoration: none;
 margin-left:10px;
+margin-bottom:10px;
+margin-top:10px;
+margin-right:155px;
+display:inline-block;
 }
-.city:hover {
+.city-up:hover {
+    text-decoration: Underline;
+text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+
+.city-down {
+  color:Grey;
+    text-decoration: none;
+margin-left:10px;
+margin-bottom:10px;
+margin-top:10px;
+margin-right:135px;
+display:inline-block;
+}
+.city-down:hover {
     text-decoration: Underline;
 text-decoration-thickness: 1px;
   text-underline-offset: 5px;
@@ -44,18 +86,19 @@ margin-left:10px;
   border: 0;
   border-radius: 10px;
     transition: 0.2s; 
+margin-top:10px;
 }
 .yb:hover {
   background-color:#FFEA00;
 }
-.gb {
-  background-color:LightGrey;
+.wb {
+  background-color:WhiteSmoke;
   border: 0;
   border-radius: 10px;
     transition: 0.2s; 
 }
-.gb:hover {
-  background-color:DarkGray;
+.wb:hover {
+  background-color:#EAEAEA;
 }
 .wr {
   color:White;
@@ -64,37 +107,46 @@ margin-left:10px;
   border-radius: 10px;
     transition: 0.2s; z-index: 2;
   position: absolute;
+margin-top:10px;
 }
 .wr:hover {
   position: absolute;
   background-color:DarkRed;
 }
-.gr {
+.ea {
 margin-left:70px;
   position: absolute;z-index: 2;
-  background-color:LightGrey;
+  background-color:#EAEAEA;
   border: 0;
     transition: 0.2s; 
   border-radius: 10px;
+margin-top:10px;
 }
-.gr:hover {
+.ea:hover {
   color:Red;
 }
-.pk {height: 20%;
+.up {
+    text-decoration: none;
+  color:Black;
+}
+.pk {height: 30%;
 }
 .fb {
+margin-top:10px;
   position: absolute;
-  background-color:LightGrey;
+  background-color:#EAEAEA;
   border: 0;
   border-radius: 10px;
     transition: 0.2s; 
 padding-left: 100px; z-index: 1;
 }
 .black-to-red-and-margin-left {
+margin-top:10px;
 margin-left: 150px;
   color:Black;
     text-decoration: none;
     transition: 0.2s; 
+display:inline-block;
 }
 .black-to-red-and-margin-left:hover {
   color:Red;
