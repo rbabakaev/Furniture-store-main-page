@@ -1,74 +1,13 @@
-.category-all {
-  background: Gainsboro;
-  border-radius: 10px;
-  border-width: 1px;
-  border-color: Gainsboro;
-  border-style: solid;
-}
-
-.category {
-  cursor: pointer;
-  background: White;
-  border-radius: 10px;
-  transition: 0.2s;
-  border-width: 1px;
-  border-color: Gainsboro;
-  border-style: solid;
-}
-
-.category:hover {
+.nav-background {
   background: WhiteSmoke;
 }
 
-.categories-container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  height: 30%;
-  text-align: center;
-}
-
-.products-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  height: 50%;
-  text-align: left;
-}
-
-.grid-width-categories {
-  width: 90%;
-}
-
-.grid-width-products {
-  width: 90%;
-}
-
-img {
-  border: 0;
-}
-
-body {
-  margin-left: 30px;
-  margin-right: 30px;
-}
-
-.whitesmoke-background {
-  background: WhiteSmoke;
-}
-
-.search-bar {
-  margin-left: 728px;
-  border-radius: 10px;
-  border-width: 1px;
-  padding-left: 10px;
-  outline-width: 0;
-}
-
-.city-dot {
+.city-svg-picture {
   height: 2%;
   margin-left: 30px;
 }
 
-.city-up {
+.city {
   color:Grey;
   text-decoration: none;
   margin-left: 10px;
@@ -78,88 +17,35 @@ body {
   display: inline-block;
 }
 
-.city-up:hover {
+.city:hover {
   text-decoration: Underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 5px;
 }
 
-.city-down {
-  color: Grey;
-  text-decoration: none;
-  margin-left: 10px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  margin-right: 135px;
-  display: inline-block;
-}
-
-.city-down:hover {
-  text-decoration: Underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 5px;
-}
-
-.nav {
+.nav-link {
   color:Grey;
   text-decoration: none;
   margin-left: 10px;
   transition: 0.2s;
 }
 
-.nav:hover {
+.nav-link:hover {
   color: Black;
 }
 
-.black-to-red {
-  margin-left: 1%;
-  color: Black;
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-.black-to-red:hover {
-  color: Red;
-}
-
-.black-to-grey {
-  margin-left: 1%;
-  color: Black;
-  text-decoration: none;
-  transition: 0.2s;
-}
-
-.black-to-grey:hover {
-  color: Grey;
-}
-
-.yb {
-  cursor: pointer;
-  background: Gold;
-  border: 0;
-  border-radius: 10px;
-  transition: 0.2s;
-  margin-top: 10px;
-}
-
-.yb:hover {
-  background: #FFEA00;
-}
-
-.wb {
-  cursor: pointer;
-  margin-left: 2.75%;
-  background: WhiteSmoke;
-  border: 0;
-  border-radius: 10px;
-  transition: 0.2s;
-}
-
-.wb:hover {
+.background-button {
+  margin-top:10px;
+  position: absolute;
   background: #EAEAEA;
+  border: 0;
+  border-radius: 10px;
+  transition: 0.2s;
+  padding-left: 100px;
+  z-index: 1;
 }
 
-.wr {
+.red-button {
   color: White;
   background: #DA0916;
   border: 0;
@@ -170,13 +56,13 @@ body {
   margin-top: 10px;
 }
 
-.wr:hover {
+.red-button:hover {
   cursor: pointer;
   position: absolute;
   background: #be0612;
 }
 
-.ea {
+.rooms-button {
   cursor: pointer;
   margin-left: 70px;
   position: absolute;
@@ -188,35 +74,11 @@ body {
   margin-top: 10px;
 }
 
-.ea:hover {
+.rooms-button:hover {
   color: Red;
 }
 
-.up {
-  text-decoration: none;
-  color: Black;
-}
-
-.pk {
-  height: 30%;
-}
-
-.picture-products {
-  width: 100%;
-}
-
-.fb {
-  margin-top:10px;
-  position: absolute;
-  background: #EAEAEA;
-  border: 0;
-  border-radius: 10px;
-  transition: 0.2s;
-  padding-left: 100px;
-  z-index: 1;
-}
-
-.black-to-red-and-margin-left {
+.black-to-red-text-and-margin-left {
   margin-top: 10px;
   margin-left: 150px;
   color: Black;
@@ -225,6 +87,132 @@ body {
   display: inline-block;
 }
 
-.black-to-red-and-margin-left:hover {
+.black-to-red-text-and-margin-left:hover {
   color: Red;
+}
+
+.black-to-red-text {
+  margin-left: 1%;
+  color: Black;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.black-to-red-text:hover {
+  color: Red;
+}
+
+.search-bar {
+  margin-left: 728px;
+  border-radius: 10px;
+  border-width: 1px;
+  padding-left: 10px;
+  outline-width: 0;
+}
+
+.black-to-grey-text {
+  margin-left: 1%;
+  color: Black;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.black-to-grey-text:hover {
+  color: Grey;
+}
+
+.holiday-discounts-button {
+  cursor: pointer;
+  background: #FECD1B;
+  border: 0;
+  border-radius: 20px;
+  transition: 0.2s;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+.holiday-discounts-button:hover {
+  background: #FFE34F;
+}
+
+.whitesmoke-button {
+  cursor: pointer;
+  margin-left: 0.185%;
+  background: WhiteSmoke;
+  border: 0;
+  border-radius: 20px;
+  transition: 0.2s;
+  height: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 14px;
+}
+
+.whitesmoke-button:hover {
+  background: #EAEAEA;
+}
+
+.categories-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  height: 30%;
+  text-align: center;
+}
+
+.categories-grid-width {
+  width: 90%;
+}
+
+.category-or-product-link {
+  text-decoration: none;
+  color: Black;
+}
+
+.category-image {
+  height: 30%;
+}
+
+.category-button-all {
+  background: Gainsboro;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: Gainsboro;
+  border-style: solid;
+}
+
+.category-button {
+  cursor: pointer;
+  background: White;
+  border-radius: 10px;
+  transition: 0.2s;
+  border-width: 1px;
+  border-color: Gainsboro;
+  border-style: solid;
+}
+
+.category-button:hover {
+  background: WhiteSmoke;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  height: 50%;
+  text-align: left;
+}
+
+.products-grid-width {
+  width: 90%;
+}
+
+.picture-product {
+  width: 90%;
+}
+
+body {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: system-ui, Open Sans, Helvetica Neue, arial, sans-serif;
 }
