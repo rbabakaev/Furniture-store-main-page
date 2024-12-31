@@ -78,6 +78,7 @@ body {
 }
 
 .category-button-all {
+  margin-bottom: 1.5%;
   background: Gainsboro;
   border-radius: 20px;
   border-width: 0px;
@@ -162,6 +163,10 @@ body {
 .feedback-number:hover {
   text-decoration: none;
   color: Black;
+}
+
+.feedback-picture {
+  height: 12px;
 }
 
 .holiday-discounts-button {
