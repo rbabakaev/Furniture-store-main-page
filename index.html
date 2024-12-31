@@ -2,10 +2,11 @@
  Мебельный магазин
 </title>
 <link rel="icon" href="Images/favicon.ico">
+
 <nav class="nav-background">
  <link rel="stylesheet" href="styles.css">
  <img class="city-svg-picture" src="Images/City dot.svg"/>
- <a href="" class="city">
+ <a href="" class="city-top">
   Нижний Новгород
  </a>
  <a href="" class="nav-link">
@@ -34,226 +35,261 @@
  </a>
 </nav>
 
-<nav>
- <input class="background-button" type="button" value=""/>
- <input class="red-button" type="button" value="Каталог"/>
- <input class="rooms-button" type="button" value="Комнаты"/>
- <a href="" class="black-to-red-text-and-margin-left">
-  Идеи
- </a>
- <a href="" class="black-to-red-text">
-  Скидки
- </a>
- <a href="" class="black-to-red-text">
-  Услуги
- </a>
- <input class="search-bar" placeholder="Поиск" type="search">
- <a href="" class="black-to-grey-text">
-  Избранное
- </a>
- <a href="" class="black-to-grey-text">
-  Войти
- </a>
- <a href="" class="black-to-grey-text">
-  Корзина
- </a>
-</nav>
-<nav>
- <input class="holiday-discounts-button" type="button" value="Праздничные скидки"/>
- <input class="whitesmoke-button" type="button" value="Новый год"/>
- <input class="whitesmoke-button" type="button" value="Только онлайн"/>
- <input class="whitesmoke-button" type="button" value="Новоселы"/>
- <input class="whitesmoke-button" type="button" value="Гардеробные"/>
- <input class="whitesmoke-button" type="button" value="Диваны"/>
- <input class="whitesmoke-button" type="button" value="Кровати и матрасы"/>
- <input class="whitesmoke-button" type="button" value="Кухни"/>
- <input class="whitesmoke-button" type="button" value="Столы и стулья"/>
- <input class="whitesmoke-button" type="button" value="Товары для дома"/>
- <input class="whitesmoke-button" type="button" value="%Акции"/>
-</nav>
-<p>
- Популярные категории
-</p>
+<div class="body">
+ <nav>
+  <input class="background-button" type="button" value=""/>
+  <input class="red-button" type="button" value="Каталог"/>
+  <input class="rooms-button" type="button" value="Комнаты"/>
+  <a href="" class="black-to-red-text-and-margin-left">
+   Идеи
+  </a>
+  <a href="" class="black-to-red-text">
+   Скидки
+  </a>
+  <a href="" class="black-to-red-text">
+   Услуги
+  </a>
+  <input class="search-bar" placeholder="Поиск" type="search">
+  <a href="" class="black-to-grey-text">
+   Войти
+  </a>
+  <a href="" class="black-to-grey-text">
+   Корзина
+  </a>
+ </nav>
 
-<container class="categories-container">
- <div class="categories-grid-width">
-  <a href="" class="category-or-product-link">
-   <div>
-    <img class="category-image" src="Images/New-year.webp"/>
-   </div>
-   <div>
-    Новый год
-   </div>
-  </a>
- </div>
- <div class="categories-grid-width">
-  <a href="" class="category-or-product-link">
-   <div>
-    <img class="category-image" src="Images/Tables-chairs.webp"/>
-   </div>
-   <div>
-    Столы и стулья
-   </div>
-  </a>
- </div>
- <div class="categories-grid-width">
-  <a href="" class="category-or-product-link">
-   <div>
-    <img class="category-image" src="Images/Table-setting.webp"/>
-   </div>
-   <div>
-    Сервировка стола
-   </div>
-  </a>
- </div>
- <div class="categories-grid-width">
-  <a href="" class="category-or-product-link">
-   <div>
-    <img class="category-image" src="Images/Sofa.webp"/>
-   </div>
-   <div>
-    Диваны-кровати
-   </div>
-  </a>
- </div>
- <div class="categories-grid-width">
-  <a href="" class="category-or-product-link">
-   <div>
-    <img class="category-image" src="Images/Furniture-Oscar.webp"/>
-   </div>
-   <div>
-    Мебель Оскар
-   </div>
-  </a>
- </div>
- <div class="categories-grid-width">
-  <a href="" class="category-or-product-link">
-   <div>
-    <img class="category-image" src="Images/Appliances.webp"/>
-   </div>
-   <div>
-    Бытовая техника
-   </div>
-  </a>
- </div>
-</container>
+ <nav>
+  <input class="holiday-discounts-button" type="button" value="Праздничные скидки"/>
+  <input class="whitesmoke-button" type="button" value="Новый год"/>
+  <input class="whitesmoke-button" type="button" value="Только онлайн"/>
+  <input class="whitesmoke-button" type="button" value="Новоселы"/>
+  <input class="whitesmoke-button" type="button" value="Гардеробные"/>
+  <input class="whitesmoke-button" type="button" value="Диваны"/>
+  <input class="whitesmoke-button" type="button" value="Кровати и матрасы"/>
+  <input class="whitesmoke-button" type="button" value="Кухни"/>
+  <input class="whitesmoke-button" type="button" value="Столы и стулья"/>
+  <input class="whitesmoke-button" type="button" value="Товары для дома"/>
+  <input class="whitesmoke-button" type="button" value="%Акции"/>
+ </nav>
 
-<p>Может заинтересовать</p>
-<nav>
-<input href="#" class="category-button-all" type="button" value="Все"/>
-<input class="category-button" type="button" value="Прихожая"/>
-<input class="category-button" type="button" value="Текстиль"/>
-<input class="category-button" type="button" value="Посуда"/>
-<input class="category-button" type="button" value="Детская"/>
-<input class="category-button" type="button" value="Спальня"/>
-<input class="category-button" type="button" value="Гостиная"/>
-<input class="category-button" type="button" value="Шторы и карнизы"/>
-<input class="category-button" type="button" value="Декор"/>
-<input class="category-button" type="button" value="Офис"/>
-<input class="category-button" type="button" value="Кухня"/>
-</nav>
+ <p>
+  Популярные категории
+ </p>
+ 
+ <container class="categories-container">
 
-<br>
+  <div class="categories-grid-width">
+   <a href="" class="category-or-product-link">
+    <div>
+     <img class="category-image" src="Images/New-year.webp"/>
+    </div>
+    <div class="category-name">
+     Новый год
+    </div>
+   </a>
+  </div>
 
-<container class="products-container">
- <div class="grid-width-products">
-  <a href="">
-   <img class="picture-product" src="Images/Шкаф-2-дверный-Лофт.jpg"/>
-  </a>
-  <div>
-   9 999 ₽
+  <div class="categories-grid-width">
+   <a href="" class="category-or-product-link">
+    <div>
+     <img class="category-image" src="Images/Tables-chairs.webp"/>
+    </div>
+    <div class="category-name">
+     Столы и стулья
+    </div>
+   </a>
   </div>
-  <a href="" class="category-or-product-link">
-   Шкаф 2-дверный Лофт
-  </a>
-  <br>
-  <br>
-  <div>
-   4.9 | 64 отзыва
-  </div>
-  <input class="red-button" type="button" value="В корзину"/>
- </div>
 
- <div class="grid-width-products">
-  <a href="">
-   <img class="picture-product" src="Images/Угловой-диван-кровать-DREAMART-Манхэттен.jpg"/>
-  </a>
-  <div>
-   81 999 ₽
+  <div class="categories-grid-width">
+   <a href="" class="category-or-product-link">
+    <div>
+     <img class="category-image" src="Images/Table-setting.webp"/>
+    </div>
+    <div class="category-name">
+     Сервировка стола
+    </div>
+   </a>
   </div>
-  <div>
-  <a href="" class="category-or-product-link"> 
-   Угловой диван-кровать DREAMART Манхэттен
-  </a>
-  </div>
-  <div>
-   4.8 | 250 отзывов
-  </div>
-  <input class="red-button" type="button" value="В корзину"/>
- </div>
 
- <div class="grid-width-products">
-  <a href="">
-   <img class="picture-product" src="Images/Кровать-Акварель-90х200-см-цвет-дуб-сонома,капучино.jpg"/>
-  </a>
-  <div>
-   15 999 ₽
+  <div class="categories-grid-width">
+   <a href="" class="category-or-product-link">
+    <div>
+     <img class="category-image" src="Images/Sofa.webp"/>
+    </div>
+    <div class="category-name">
+     Диваны-кровати
+    </div>
+   </a>
   </div>
-  <div>
-  <a href="" class="category-or-product-link"> 
-   Кровать Акварель 90х200 см цвет дуб сонома, капучино
-  </a>
-  </div>
-  <div>
-   4.9 | 176 отзывов
-  </div>
-  <input class="red-button" type="button" value="В корзину"/>
- </div>
 
- <div class="grid-width-products">
-  <a href="">
-   <img class="picture-product" src="Images/Шкаф-Гранд.jpg"/>
-  </a>
-  <div>
-   20 399 ₽
+  <div class="categories-grid-width">
+   <a href="" class="category-or-product-link">
+    <div>
+     <img class="category-image" src="Images/Furniture-Oscar.webp"/>
+    </div>
+    <div class="category-name">
+     Мебель Оскар
+    </div>
+   </a>
   </div>
-  <div>
-  <a href="" class="category-or-product-link"> 
-   Шкаф Гранд
-  <br>
-  <br>
-  </a>
-  </div>
-  <div>
-   4.4 | 8 отзывов
-  </div>
-  <input class="red-button" type="button" value="В корзину"/>
- </div>
 
- <div class="grid-width-products">
-  <a href="">
-   <img class="picture-product" src="Images/Шкаф-1-дверный-Лофт.jpg"/>
-  </a>
-  <div>
-   7 999 ₽
+  <div class="categories-grid-width">
+   <a href="" class="category-or-product-link">
+    <div>
+     <img class="category-image" src="Images/Appliances.webp"/>
+    </div>
+    <div class="category-name">
+     Бытовая техника
+    </div>
+   </a>
   </div>
+ </container>
+ 
+ <p>
+  Может заинтересовать
+ </p>
+
+ <nav>
+ <input class="category-button-all" type="button" value="Все"/>
+ <input class="category-button" type="button" value="Прихожая"/>
+ <input class="category-button" type="button" value="Текстиль"/>
+ <input class="category-button" type="button" value="Посуда"/>
+ <input class="category-button" type="button" value="Детская"/>
+ <input class="category-button" type="button" value="Спальня"/>
+ <input class="category-button" type="button" value="Гостиная"/>
+ <input class="category-button" type="button" value="Шторы и карнизы"/>
+ <input class="category-button" type="button" value="Декор"/>
+ <input class="category-button" type="button" value="Офис"/>
+ <input class="category-button" type="button" value="Кухня"/>
+ </nav>
+ 
+ <container class="products-container">
+
   <div>
-  <a href="" class="category-or-product-link"> 
-   Шкаф 1-дверный Лофт
-  <br>
-  <br>
-  </a>
+   <a href="">
+    <img class="picture-product" src="Images/Шкаф-2-дверный-Лофт.jpg"/>
+   </a>
+   <div class="product-except-picture">
+    <div class="price">
+     9 999 ₽
+    </div>
+    <a href="" class="category-or-product-link">
+     Шкаф 2-дверный Лофт
+    </a>
+    <br>
+    <br>
+    <div>
+     4.9 | 
+     <a href="" class="feedback-number">
+      64 отзыва
+     </a>
+    </div>
+    <input class="red-button" type="button" value="В корзину"/>
+   </div>
   </div>
+ 
   <div>
-   4.8 | 73 отзыва
+   <a href="">
+    <img class="picture-product" src="Images/Угловой-диван-кровать-DREAMART-Манхэттен.jpg"/>
+   </a>
+   <div class="product-except-picture">
+    <div class="price">
+     81 999 ₽
+    </div>
+    <div>
+     <a href="" class="category-or-product-link"> 
+      Угловой диван-кровать DREAMART Манхэттен
+     </a>
+    </div>
+    <div>
+     4.8 | 
+     <a href="" class="feedback-number">
+      250 отзывов
+     </a>
+    </div>
+    <input class="red-button" type="button" value="В корзину"/>
+   </div>
   </div>
-  <input class="red-button" type="button" value="В корзину"/>
- </div>
-</container>
+ 
+  <div>
+   <a href="">
+    <img class="picture-product" src="Images/Кровать-Акварель-90х200-см-цвет-дуб-сонома,капучино.jpg"/>
+   </a>
+   <div class="product-except-picture">
+    <div class="price">
+     15 999 ₽
+    </div>
+    <div>
+     <a href="" class="category-or-product-link"> 
+      Кровать Акварель 90х200 см цвет дуб сонома, капучино
+     </a>
+    </div>
+    <div>
+     4.9 | 
+     <a href="" class="feedback-number">
+      176 отзывов
+     </a>
+    </div>
+    <input class="red-button" type="button" value="В корзину"/>
+   </div>
+  </div>
+ 
+  <div>
+   <a href="">
+    <img class="picture-product" src="Images/Шкаф-Гранд.jpg"/>
+   </a>
+   <div class="product-except-picture">
+    <div class="price">
+     20 399 ₽
+    </div>
+    <div>
+     <a href="" class="category-or-product-link"> 
+      Шкаф Гранд
+      <br>
+      <br>
+     </a>
+    </div>
+    <div>
+     4.4 | 
+     <a href="" class="feedback-number">
+      8 отзывов
+     </a>
+    </div>
+    <input class="red-button" type="button" value="В корзину"/>
+   </div>
+  </div>
+ 
+  <div>
+   <a href="">
+    <img class="picture-product" src="Images/Шкаф-1-дверный-Лофт.jpg"/>
+   </a>
+   <div class="product-except-picture">
+    <div class="price">
+     7 999 ₽
+    </div>
+    <div>
+     <a href="" class="category-or-product-link"> 
+      Шкаф 1-дверный Лофт
+     <br>
+     <br>
+     </a>
+    </div>
+    <div>
+     4.8 | 
+     <a href="" class="feedback-number">
+      73 отзывов
+     </a>
+    </div>
+    <input class="red-button" type="button" value="В корзину"/>
+   </div>
+  </div>
+
+ </container>
+</div>
 
 <nav class="nav-background">
  <img class="city-svg-picture" src="Images/City dot.svg"/>
- <a href="" class="city">
+ <a href="" class="city-bottom">
   Нижний Новгород
  </a>
  <a href="" class="nav-link">
